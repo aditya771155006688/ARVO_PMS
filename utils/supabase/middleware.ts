@@ -13,6 +13,8 @@ const publicPaths = [
   '/profile/:id', // Public profile pages - using path pattern
 ];
 
+
+
 export async function updateSession(request: NextRequest) {
   let supabaseResponse = NextResponse.next({
     request,
