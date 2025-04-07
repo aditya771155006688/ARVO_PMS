@@ -15,7 +15,7 @@ interface ProfilePhotoUploaderProps {
   className?: string;
 }
 
-const STORAGE_URL = process.env.NEXT_PUBLIC_SUPABASE_STORAGE_URL;
+const STORAGE_URL = 'https://lfavactojhrgcjvqeewj.supabase.co/storage/v1/object/public';
 const BUCKET_NAME = 'profilephotos';
 
 export const ProfilePhotoUploader: React.FC<ProfilePhotoUploaderProps> = ({
