@@ -1,6 +1,3 @@
-import { Resend } from 'resend';
-
-const resend = new Resend('re_7gQFTfRT_PTWLsnJ3ZGeTg1CiFZsvaKRV');
 
 export const emails = {
   sendProjectInvitation: async ({
